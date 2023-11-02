@@ -8,8 +8,6 @@ public class Main {
         vehiculos.add(new Camioneta(2, "5634CHG", "Nissan", "Navara", 2004, 5999.99, 65, 12.8));
         vehiculos.add(new Moto(3, "5398GRS", "Honda", "CBR600RR", 2010, 5999.99, 599, "4 en línea"));
 
-        //Falta mostrar datos y metodos!!!!!!!!!!!!!!!!!!!!
-
         for(Vehiculo info : vehiculos){
             System.out.println(info.toString());
             info.antiguedad();
