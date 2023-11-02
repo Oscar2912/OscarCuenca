@@ -54,11 +54,12 @@ public class Main {
         System.out.println("Datos de las personas mayores de 30");
         for (int i = 0; i < persona.length; i++){
             if(persona[i].getEdad() > 30){
-                System.out.println(persona[i].getId());
+                System.out.println(persona[i].toString());
+                /*System.out.println(persona[i].getId());
                 System.out.println(persona[i].getNombre());
                 System.out.println(persona[i].getEdad());
                 System.out.println(persona[i].getDireccion());
-                System.out.println(persona[i].getTelefono());
+                System.out.println(persona[i].getTelefono());*/
             }
         }
     }

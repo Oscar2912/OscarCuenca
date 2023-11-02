@@ -5,18 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56e40d66-7697-4a17-aab6-a95b692091c6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Clase5Dia6Ejercicio2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Camiseta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pantalon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sombrero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Vestimenta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Zapato.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clase2Dia3Ejercicio3/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Clase2Dia3Ejercicio3/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clase2Dia3Ejercicio3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Clase2Dia3Ejercicio3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clase2Dia3Ejercicio4/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Clase2Dia3Ejercicio4/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clase2Dia3Ejercicio4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Clase2Dia3Ejercicio4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clase2Dia3Ejercicio4/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Clase2Dia3Ejercicio4/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clase3Dia4Ejercicio2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Clase3Dia4Ejercicio2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clase3Dia4Ejercicio2/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Clase3Dia4Ejercicio2/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clase3Dia4Ejercicio2/src/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Clase3Dia4Ejercicio2/src/Persona.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clase3Dia5Ejercicio1/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Clase3Dia5Ejercicio1/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clase3Dia5Ejercicio1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Clase3Dia5Ejercicio1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clase3Dia5Ejercicio1/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Clase3Dia5Ejercicio1/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clase3Dia5Ejercicio1/src/Verdura.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Clase3Dia5Ejercicio1/src/Verdura.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +31,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 8

@@ -14,63 +14,65 @@ public class Main {
         int fila, asiento, continuar;
 
         //Declaramos la matríz
-        String[][] asientos = new String[5][5];
+        char[][] asientos = new char[5][5];
+
+        System.out.println("***** Bienvenido al sistema de reserva de asientos *****");
 
         //Recorremos la matríz sin realizar cambios en ella
         for(int x = 0; x < asientos.length; x++){
             for (int y = 0; y < asientos[0].length; y++){
-                asientos [x][y] = " O ";
+                asientos [x][y] = 'O';
                 System.out.print(asientos[x][y]);
             }
-            System.out.println("");
+            System.out.println();
         }
 
         //Iniciamos un bucle por centinela para que se repita el proceso de reserva de asientos hasta que el usuario indique que no quiere realizar más reservas
-        while (seguir == true) {
+        while (seguir) {
 
             //Solicitamos al usuario que indique en qué fila quiere hacer la reserva
-            System.out.println("Introduzca la fila del asiento que quiere reservar (entre 0 y 4)");
-            fila = sc.nextInt();
+            System.out.println("Introduzca la fila del asiento que quiere reservar (entre 1 y 5)");
+            fila = sc.nextInt()-1;
 
             //Verificamos que el número introducido sea correcto
-            while(fila < 0 || fila > 4){
+            while(fila < 0 || fila > asientos.length){
                 System.out.println("Introduzca un número de fila válido:");
-                fila = sc.nextInt();
+                fila = sc.nextInt()-1;
             }
 
             //Solicitamos al usuario que indique en qué asiento quiere hacer la reserva
-            System.out.println("Introduzca el asiento que quiere reservar (entre 0 y 4)");
-            asiento = sc.nextInt();
+            System.out.println("Introduzca el asiento que quiere reservar (entre 1 y 5)");
+            asiento = sc.nextInt()-1;
 
             //Verificamos que el número introducido sea correcto
-            while(asiento < 0 || asiento > 4){
+            while(asiento < 0 || asiento > asientos[0].length){
                 System.out.println("Introduzca un número de asiento válido:");
-                asiento = sc.nextInt();
+                asiento = sc.nextInt()-1;
             }
 
             //Se comprueba si el asiento seleccionado está disponible o ya fue reservado
-            while (asientos[fila][asiento] == " X "){
+            while (asientos[fila][asiento] == 'X'){
                 System.out.println("El asiento ya está reservado, selecciona uno distinto.");
 
-                System.out.println("Introduzca la fila del asiento que quiere reservar (entre 0 y 4)");
-                fila = sc.nextInt();
+                System.out.println("Introduzca la fila del asiento que quiere reservar (entre 1 y 5)");
+                fila = sc.nextInt()-1;
 
-                while(fila < 0 || fila > 4){
+                while(fila < 0 || fila > asientos.length){
                     System.out.println("Introduzca un número de fila válido:");
-                    fila = sc.nextInt();
+                    fila = sc.nextInt()-1;
                 }
 
-                System.out.println("Introduzca el asiento que quiere reservar (entre 0 y 4)");
+                System.out.println("Introduzca el asiento que quiere reservar (entre 1 y 5)");
                 asiento = sc.nextInt();
 
-                while(asiento < 0 || asiento > 4){
+                while(asiento < 0 || asiento > asientos[0].length){
                     System.out.println("Introduzca un número de asiento válido:");
-                    asiento = sc.nextInt();
+                    asiento = sc.nextInt()-1;
                 }
             }
 
             //Se introduce en la posición de la matríz indicada el valor que muestra que se ha reservado esa posición
-            asientos[fila][asiento] = " X ";
+            asientos[fila][asiento] = 'X';
             for(int x = 0; x < asientos.length; x++){
                 for (int y = 0; y < asientos[0].length; y++){
                     System.out.print(asientos[x][y]);

@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b5ce66a5-5095-4cb0-8046-24edbfe0483b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-    </list>
+    <list default="true" id="198cf2b3-e6c6-4036-b7a5-334f3f5f6779" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,10 +10,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 1
-}</component>
-  <component name="ProjectId" id="2XWcRjgOQRgUVD7YTWWrre6fNPG" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="2XcJMu3kKz9By7QFT8JqHCWHwnb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -24,18 +23,17 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "E:/Desarrollo/GitHub-HackABoss/Clase3Dia5Ejercicio1"
+    "git-widget-placeholder": "master"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b5ce66a5-5095-4cb0-8046-24edbfe0483b" name="Changes" comment="" />
-      <created>1698748270127</created>
+      <changelist id="198cf2b3-e6c6-4036-b7a5-334f3f5f6779" name="Changes" comment="" />
+      <created>1698922391881</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1698748270127</updated>
+      <updated>1698922391881</updated>
     </task>
     <servers />
   </component>

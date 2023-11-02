@@ -50,5 +50,28 @@ public class Main {
                 System.out.println(verdurasVerdes.getNombre());
         }
 
+        //Prueba del funcionamiento de los métodos get
+
+        System.out.println("\n***** PRUEBA GETTER ******");
+
+        System.out.println("Id: " + verduras[0].getId() + " Nombre: " + verduras[0].getNombre() +
+                            " Color: " + verduras[0].getColor() + " Calorias: " + verduras[0].getCalorias() +
+                            " ¿Debe cocinarse? " + verduras[0].getDebeCocinarse());
+
+        //Prueba del funcionamiento de los métodos set
+
+        System.out.println("\n***** PRUEBA SETTER ******");
+
+        verduras[0].setId(34);
+        verduras[0].setNombre("Calabazin");
+        verduras[0].setCalorias(45);
+        verduras[0].setColor("Verde");
+        verduras[0].setDebeCocinarse("Si");
+
+        System.out.println("Id: " + verduras[0].getId() + " Nombre: " + verduras[0].getNombre() +
+                " Color: " + verduras[0].getColor() + " Calorias: " + verduras[0].getCalorias() +
+                " ¿Debe cocinarse? " + verduras[0].getDebeCocinarse());
+
+
     }
 }
