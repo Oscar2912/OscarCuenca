@@ -11,10 +11,10 @@ public class Main {
         for(Vehiculo info : vehiculos){
             System.out.println(info.toString());
             info.antiguedad();
-            if(info.cargarEnergia() != null)
-                System.out.println(info.cargarEnergia());
+            if(((Electrico)info).cargarEnergia() != null)
+                System.out.println(((Electrico)info).cargarEnergia());
             else
-                System.out.println(info.recargarCombustible());
+                System.out.println(((Combustion)info).recargarCombustible());
             System.out.println();
         }
         //Implementar en Vehiculo las 2 interfaces y despues la interfaz correspondiente en cada clase hija y probar a llamar los métodos desde aquí

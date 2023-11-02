@@ -1,5 +1,5 @@
 //Crea una clase Moto que herede de Vehiculo e implemente la interfaz Combustion. Agrega atributos específicos para las motos de combustión, como cilindrada y tipoMotor. Implementa los métodos abstractos de la clase abstracta y los de la interfaz.
-public class Moto extends Vehiculo implements Combustion{
+public class Moto extends Vehiculo implements Electrico, Combustion{
     //Atributos
     private int cilindrada;
     private String tipoMotor;
@@ -16,14 +16,15 @@ public class Moto extends Vehiculo implements Combustion{
     public void antiguedad() {
         System.out.println("La antigüedad del vehículo es: " +  + (2023 - anio));
     }
-    @Override
-    public String recargarCombustible() {
-        return "Se está llenando el depósito...";
-    }
 
     @Override
     public String cargarEnergia() {
         return null;
+    }
+
+    @Override
+    public String recargarCombustible() {
+        return "Se está llenando el depósito...";
     }
 
     @Override

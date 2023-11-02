@@ -1,5 +1,5 @@
 // Crea una clase Camioneta que herede de Vehiculo e implemente la interfaz Combustion. Agrega atributos específicos para las camionetas de combustión, como capacidadTanque y consumoCombustible. Implementa los métodos abstractos de la clase abstracta y los de la interfaz.
-public class Camioneta extends Vehiculo implements Combustion{
+public class Camioneta extends Vehiculo implements Electrico, Combustion{
     //Atributos
     private double capacidadTanque;
     private double consumoCombustible;
@@ -18,13 +18,13 @@ public class Camioneta extends Vehiculo implements Combustion{
     }
 
     @Override
-    public String recargarCombustible() {
-        return "Se está llenando el depósito...";
+    public String cargarEnergia() {
+        return null;
     }
 
     @Override
-    public String cargarEnergia() {
-        return null;
+    public String recargarCombustible() {
+        return "Se está llenando el depósito...";
     }
 
     @Override

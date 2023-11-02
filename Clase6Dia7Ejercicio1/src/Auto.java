@@ -1,5 +1,5 @@
 //Crea una clase Auto que herede de Vehiculo e implemente la interfaz Electrico. Agrega atributos específicos para los autos eléctricos, como capacidadBateria (en mah) y autonomia (en hs). Implementa los métodos abstractos de la clase abstracta Vehiculo y los de la interfaz Electrico.
-public class Auto extends Vehiculo implements Electrico{
+public class Auto extends Vehiculo implements Electrico, Combustion{
     //Atributos
     private double capacidadBateria;
     private double autonomia;
@@ -18,13 +18,13 @@ public class Auto extends Vehiculo implements Electrico{
     }
 
     @Override
-    public String recargarCombustible() {
-        return null;
+    public String cargarEnergia() {
+        return "Se está cargando la batería...";
     }
 
     @Override
-    public String cargarEnergia() {
-        return "Se está cargando la batería...";
+    public String recargarCombustible() {
+        return null;
     }
 
     @Override

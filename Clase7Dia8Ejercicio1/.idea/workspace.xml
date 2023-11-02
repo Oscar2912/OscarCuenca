@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="198cf2b3-e6c6-4036-b7a5-334f3f5f6779" name="Changes" comment="" />
+    <list default="true" id="198cf2b3-e6c6-4036-b7a5-334f3f5f6779" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Clase6Dia7Ejercicio1/src/Auto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Clase6Dia7Ejercicio1/src/Auto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clase6Dia7Ejercicio1/src/Camioneta.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Clase6Dia7Ejercicio1/src/Camioneta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clase6Dia7Ejercicio1/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Clase6Dia7Ejercicio1/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clase6Dia7Ejercicio1/src/Moto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Clase6Dia7Ejercicio1/src/Moto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clase6Dia7Ejercicio1/src/Vehiculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Clase6Dia7Ejercicio1/src/Vehiculo.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,7 +40,10 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "E:/Desarrollo/Clase3Dia5Ejercicio1_old"
+    "last_opened_file_path": "E:/Desarrollo/8.1 mysql-connector-j-8.1.0.jar",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -47,5 +56,15 @@
       <updated>1698922391881</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.sql.SQLException" package="java.sql" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

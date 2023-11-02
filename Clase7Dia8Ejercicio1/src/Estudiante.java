@@ -17,6 +17,7 @@ public class Estudiante {
     }
 
     //Métodos
+
     public int getId() {
         return id;
     }
@@ -47,15 +48,5 @@ public class Estudiante {
 
     public void setCalificacion(double calificacion) {
         this.calificacion = calificacion;
-    }
-
-    @Override
-    public String toString() {
-        return "Estudiante{" +
-                "id=" + id +
-                ", nombre='" + nombre + '\'' +
-                ", edad=" + edad +
-                ", calificacion=" + calificacion +
-                '}';
     }
 }
