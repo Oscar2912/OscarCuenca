@@ -26,7 +26,7 @@ public class Main {
 
         //Elimino (BAJA) un registro creado y persistido anteriormente
         System.out.println("Eliminando el segundo platillo...");
-        controladora.eliminarPlatillos(9);
+        controladora.eliminarPlatillos(2);
 
         //Editar (MODIFICACIÓN) un registro que ya existe
         platillo3.setPrecio(4.99);

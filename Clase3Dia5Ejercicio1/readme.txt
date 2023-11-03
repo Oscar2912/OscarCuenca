@@ -3,4 +3,4 @@ Integrantes del grupo:
 Developer: Óscar Cuenca
 Tester1: Alicia Martínez
 Tester2: Alejandro de Blas
-Documentator: x
+Documentator: Óscar Cuenca
