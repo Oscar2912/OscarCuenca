@@ -1,5 +1,8 @@
+import static java.util.Calendar.YEAR;
+import static java.util.Calendar.getInstance;
+
 //Crea una clase Moto que herede de Vehiculo e implemente la interfaz Combustion. Agrega atributos específicos para las motos de combustión, como cilindrada y tipoMotor. Implementa los métodos abstractos de la clase abstracta y los de la interfaz.
-public class Moto extends Vehiculo implements Electrico, Combustion{
+public class Moto extends Vehiculo implements Combustion{
     //Atributos
     private int cilindrada;
     private String tipoMotor;
@@ -14,12 +17,7 @@ public class Moto extends Vehiculo implements Electrico, Combustion{
     //Métodos
     @Override
     public void antiguedad() {
-        System.out.println("La antigüedad del vehículo es: " +  + (2023 - anio));
-    }
-
-    @Override
-    public String cargarEnergia() {
-        return null;
+        System.out.println("La antigüedad del vehículo es: " +  + (getInstance().get(YEAR) - anio));
     }
 
     @Override

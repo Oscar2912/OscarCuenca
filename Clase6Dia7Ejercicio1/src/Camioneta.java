@@ -1,5 +1,8 @@
+import static java.util.Calendar.YEAR;
+import static java.util.Calendar.getInstance;
+
 // Crea una clase Camioneta que herede de Vehiculo e implemente la interfaz Combustion. Agrega atributos específicos para las camionetas de combustión, como capacidadTanque y consumoCombustible. Implementa los métodos abstractos de la clase abstracta y los de la interfaz.
-public class Camioneta extends Vehiculo implements Electrico, Combustion{
+public class Camioneta extends Vehiculo implements Combustion{
     //Atributos
     private double capacidadTanque;
     private double consumoCombustible;
@@ -14,12 +17,7 @@ public class Camioneta extends Vehiculo implements Electrico, Combustion{
     //Métodos
     @Override
     public void antiguedad() {
-        System.out.println("La antigüedad del vehículo es: " +  + (2023 - anio));
-    }
-
-    @Override
-    public String cargarEnergia() {
-        return null;
+        System.out.println("La antigüedad del vehículo es: " +  + (getInstance().get(YEAR) - anio));
     }
 
     @Override

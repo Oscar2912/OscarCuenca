@@ -1,5 +1,9 @@
+import java.util.Calendar;
+
+import static java.util.Calendar.*;
+
 //Crea una clase Auto que herede de Vehiculo e implemente la interfaz Electrico. Agrega atributos específicos para los autos eléctricos, como capacidadBateria (en mah) y autonomia (en hs). Implementa los métodos abstractos de la clase abstracta Vehiculo y los de la interfaz Electrico.
-public class Auto extends Vehiculo implements Electrico, Combustion{
+public class Auto extends Vehiculo implements Electrico{
     //Atributos
     private double capacidadBateria;
     private double autonomia;
@@ -14,17 +18,12 @@ public class Auto extends Vehiculo implements Electrico, Combustion{
     //Métodos
     @Override
     public void antiguedad() {
-        System.out.println("La antigüedad del vehículo es: " + (2023 - anio));
+        System.out.println("La antigüedad del vehículo es: " + (getInstance().get(YEAR) - anio));
     }
 
     @Override
     public String cargarEnergia() {
         return "Se está cargando la batería...";
-    }
-
-    @Override
-    public String recargarCombustible() {
-        return null;
     }
 
     @Override
