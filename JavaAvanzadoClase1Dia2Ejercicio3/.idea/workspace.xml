@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3fb321ca-6c33-4035-bb7e-4736954fc6ed" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Clase7Dia8Ejercicio1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Clase7Dia8Ejercicio1/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="a1b3bcc1-d333-4c2e-818f-971d7139d142" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaAvanzadoClase1Dia2Ejercicio3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,12 +26,12 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 8
-}</component>
-  <component name="ProjectId" id="2Xd99R96B7skjlIOR0Sd2MaUGNe" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2XonSWJ6mlsIIZTeXJDa6u1apNc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -35,21 +41,17 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "E:/Desarrollo/prueba/prueba",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "git-widget-placeholder": "master"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3fb321ca-6c33-4035-bb7e-4736954fc6ed" name="Changes" comment="" />
-      <created>1698947939579</created>
+      <changelist id="a1b3bcc1-d333-4c2e-818f-971d7139d142" name="Changes" comment="" />
+      <created>1699304301549</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1698947939579</updated>
+      <updated>1699304301549</updated>
     </task>
     <servers />
   </component>

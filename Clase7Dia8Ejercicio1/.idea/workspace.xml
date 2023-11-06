@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="198cf2b3-e6c6-4036-b7a5-334f3f5f6779" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Clase6Dia7Ejercicio1/src/Auto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Clase6Dia7Ejercicio1/src/Auto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Clase6Dia7Ejercicio1/src/Camioneta.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Clase6Dia7Ejercicio1/src/Camioneta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Clase6Dia7Ejercicio1/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Clase6Dia7Ejercicio1/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Clase6Dia7Ejercicio1/src/Moto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Clase6Dia7Ejercicio1/src/Moto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Clase6Dia7Ejercicio1/src/Vehiculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Clase6Dia7Ejercicio1/src/Vehiculo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clase7Dia8Ejercicio2/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Clase7Dia8Ejercicio2/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clase7Dia8Ejercicio2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Clase7Dia8Ejercicio2/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,9 +23,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2XcJMu3kKz9By7QFT8JqHCWHwnb" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -40,7 +37,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "E:/Desarrollo/8.1 mysql-connector-j-8.1.0.jar",
+    "last_opened_file_path": "E:/Desarrollo/GitHub-HackABoss/Clase7Dia8Ejercicio1",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
