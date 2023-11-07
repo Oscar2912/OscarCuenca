@@ -1,36 +1,12 @@
 public class Producto {
+    //Atributos
     private String nombre;
     private double precio;
     private int cantidad;
 
-    public String getNombre() {
-        return nombre;
-    }
-
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
-    }
-
-    public double getPrecio() {
-        return precio;
-    }
-
-    public void setPrecio(double precio) {
-        this.precio = precio;
-    }
-
-    public int getCantidad() {
-        return cantidad;
-    }
-
-    public void setCantidad(int cantidad) {
-        this.cantidad = cantidad;
-    }
-
-    public Producto() {
-    }
-
+    //Constructores
     public Producto(String nombre, double precio, int cantidad) throws ProductoException{
+        //Se realiza un control que asegura que los datos introducidos por el usuario son correctos. De no cumplirse, se mostrará un mensaje descriptivo informando sobre el error detectado y no se creará el objeto
         if(nombre.isEmpty() || nombre == ""){
             throw new ProductoException("Debe introducir el nombre del producto");
         }else if(precio <= 0){

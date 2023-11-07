@@ -1,52 +1,16 @@
 import java.time.LocalDate;
 
 public class Reserva {
+    //Atributos
     private String nombre;
     private String destino;
     private LocalDate fecha;
     private int numeroAsientos;
     private int asientosTotales = 2000;
 
-    public String getNombre() {
-        return nombre;
-    }
-
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
-    }
-
-    public String getDestino() {
-        return destino;
-    }
-
-    public void setDestino(String destino) {
-        this.destino = destino;
-    }
-
-    public LocalDate getFecha() {
-        return fecha;
-    }
-
-    public void setFecha(LocalDate fecha) {
-        this.fecha = fecha;
-    }
-
-    public int getNumeroAsientos() {
-        return numeroAsientos;
-    }
-
-    public void setNumeroAsientos(int numeroAsientos) {
-        this.numeroAsientos = numeroAsientos;
-    }
-
-    public int getAsientosTotales() {
-        return asientosTotales;
-    }
-
-    public Reserva(String nombre, String destino, String fecha, int numeroAsientos) {
-    }
-
+    //Constructores
     public Reserva(String nombre, String destino, LocalDate fecha, int numeroAsientos) throws ReservaInvalidaException{
+        //Se realiza un control que asegura que los datos introducidos por el usuario son correctos. De no cumplirse, se mostrará un mensaje descriptivo informando sobre el error detectado y no se creará el objeto
         if (nombre.isEmpty() || nombre == ""){
             throw new ReservaInvalidaException("Debe introducir su nombre");
         }else if(destino.isEmpty() || destino == ""){
