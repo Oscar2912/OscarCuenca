@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75fc508c-592f-4836-830f-6051b407f9f9" name="Changes" comment="" />
+    <list default="true" id="9d1105b5-f359-47a2-b265-a99085bf16f2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../JavaAvanzadoClase5Dia6Ejercicio2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAvanzadoClase5Dia6Ejercicio2/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,9 +23,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 4
+  &quot;associatedIndex&quot;: 7
 }</component>
-  <component name="ProjectId" id="2Y8aCaKfCjsw6DW7vXuWJIBt2o1" />
+  <component name="ProjectId" id="2YAyOxfiyxSY0htuOx7WBplKcA9" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -34,17 +36,17 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "E:/Desarrollo/Clase10Practica"
+    "last_opened_file_path": "E:/Desarrollo/GitHub-HackABoss/JavaAvanzadoClase6Dia7Ejercicio1"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="75fc508c-592f-4836-830f-6051b407f9f9" name="Changes" comment="" />
-      <created>1699909535400</created>
+      <changelist id="9d1105b5-f359-47a2-b265-a99085bf16f2" name="Changes" comment="" />
+      <created>1699982652148</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1699909535400</updated>
+      <updated>1699982652148</updated>
     </task>
     <servers />
   </component>
