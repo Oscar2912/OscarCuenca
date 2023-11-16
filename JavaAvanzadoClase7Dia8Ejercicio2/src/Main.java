@@ -54,6 +54,6 @@ public class Main {
         tareas.get(2).setSubtareas(subtareas2);
 
         //Se llama al método verTareas para mostrar el árbol de tareas creado
-        proyecto.verTareas(proyecto);
+        proyecto.verTareas(proyecto, 0);
     }
 }
