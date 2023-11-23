@@ -4,9 +4,13 @@
     Author     : Oscar
 --%>
 
+<%@page import="com.mycompany.javaavanzadoclase10dia11ejercicio1.logica.Controladora"%>
 <%@page import="java.util.List"%>
 <%@page import="com.mycompany.javaavanzadoclase10dia11ejercicio1.logica.Partido"%>
 <%@page contentType="text/html charset=UTF-8" pageEncoding="UTF-8"%>
+<%-- Se llama a la creación de los partidos en Controladora--%>
+<% Controladora control = new Controladora();%>
+<% control.crearPartido(); %>
 <!DOCTYPE html>
 <html>
     <head>
@@ -31,14 +35,17 @@
                     <br>
                 </div>
                 <button type="submit" class="btn btn-primary">Enviar</button>
-                <br><br>
-                <button type="button" class="btn btn-success">Mostrar resultados</button>
+            </form>
+            <br><br>
+            <form action="PartidoSv" method="get">
+                <button type="submit" class="btn btn-success">Mostrar resultados</button>
             </form>
 
             <hr>
 
         <br>
         <br>
+        <!-- Se muestra la tabla con los resultados de las votaciones -->
         <div class="results-table">
             <% if (request.getAttribute("resultados") != null) { %>
                 <table class="table">
